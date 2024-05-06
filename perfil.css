@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 100%;
+  background-color: #070707;
+}
+.cabecalho {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px 20px;
+  border-bottom: 0.4px solid #fff2e7;
+}
+
+.cabecalho-menu {
+  color: #a074ff;
+  display: flex;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  gap: 26px;
+}
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px 111px;
+  margin-top: 15px;
+}
+.titulo-perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: #a074ff;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  padding: 32px;
+}
+
+.imagem-perfil {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 554px;
+  height: 778px;
+  padding: 32px;
+}
+.texto-perfil {
+  color: #ecd6c4;
+  font-family: "League Spartan", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 14px;
+  padding-top: 18px;
+}
